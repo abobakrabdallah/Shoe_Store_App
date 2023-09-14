@@ -5,4 +5,24 @@
     <string name="email">Email</string>
     <string name="Password">Password</string>
     <string name="Title1">Enter Your Information</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_our">to our</string>
+    <string name="shoe_store">Shoe Store</string>
+    <string name="continue_">Continue</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_p">- To add a new shoe into your list press the + button in the shoe list screen, add its information, and then save the item to add it. \n\n- If you want to cancel this item press the cancel button instead of save button.</string>
+    <string name="choose_the_shoe">choose the shoe</string>
+    <string name="shoe_list">Shoe List</string>
+    <string name="add_new_shoe">Add New Shoe</string>
+    <string name="shoe_details">Shoe Details</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="shoe_namee">Shoe Name</string>
+    <string name="company">Company</string>
+    <string name="add">Add</string>
+    <string name="size">Size</string>
+    <string name="cancel">Cancel</string>
+    <string name="cost">Cost</string>
+    <string name="description">description</string>
 </resources>

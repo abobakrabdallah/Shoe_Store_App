@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.bakooor.shoeapp.databinding.FragmentLoginBinding
 
 class LoginFragment : Fragment() {
@@ -13,9 +14,14 @@ class LoginFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentLoginBinding.inflate(inflater,container,false)
-
+        binding.bSignIn.setOnClickListener {
+            findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
+        }
+        binding.bSignUp.setOnClickListener {
+            findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
+        }
         return binding.root
     }
 
